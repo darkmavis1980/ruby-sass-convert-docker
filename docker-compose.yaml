@@ -1,0 +1,11 @@
+version: "3"
+services:
+  ubuntu:
+    container_name: ubuntu
+    image: ubuntu
+    build: .
+    command: ["sleep","infinity"]
+    volumes:
+      - ubuntuVM:/opt/data
+volumes:
+  ubuntuVM:
