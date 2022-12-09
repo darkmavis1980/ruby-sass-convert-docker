@@ -33,10 +33,10 @@ And to convert you can simply run:
 
 ```bash
 # Convert a single file
-sass-convert -F sass -T scss styles.sass styles.scss
+sass-convert -r -F sass -T scss styles.sass styles.scss
 
 # Convert a folder
-sass-convert -F sass -T scss folder/
+sass-convert -r -F sass -T scss folder/
 ```
 
 Then to copy the data back you can use the `docker cp` command again:
